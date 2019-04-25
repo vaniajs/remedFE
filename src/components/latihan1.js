@@ -122,7 +122,7 @@ class Home extends React.Component{
             }
     
         renderPekerjaan = () => {
-            var jsx = this.state.jobs.map((val)=>{
+            var jsx = this.state.data.map((val)=>{
                 return(
                 <option value={val.pekerjaan}>{val.pekerjaan}</option>
             )})
